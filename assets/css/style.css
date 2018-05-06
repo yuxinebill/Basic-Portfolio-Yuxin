@@ -186,5 +186,22 @@ input[type=submit]:hover {
       line-height:40px;
       text-align: center;     
     }
+
+    .main_box img {
+    width: 100%;
+    }
+
+    .portfolio_holder {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      clear: right;
+    }
+
+    .portfolio_holder span {
+      width: 30%;
+      margin-top: 60%;  
+    }
+
 }
 
