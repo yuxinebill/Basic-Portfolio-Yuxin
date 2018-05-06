@@ -145,7 +145,7 @@ input[type=submit]:hover {
   margin: 0 20px 20px 0;
 }
 
-.portfolio_holder p {
+.portfolio_holder span {
   width: 350px;
   height: 40px;
   background-color: #4aaaa5;
