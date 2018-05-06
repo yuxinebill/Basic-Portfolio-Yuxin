@@ -28,8 +28,8 @@
       <div class="nav">
         <ul>
           <li><a href="index.html">About</a></li>
-          <li><a>Portfolio</a></li>
-          <li><a>Contact</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
 
@@ -38,11 +38,19 @@
 
   <!-- main info -->
   <section class="container">
-    <div class="main_box clearfix">
-      <h2>About Me</h2>
+    <div class="main_box">
+      <h2>Contact</h2>
       <hr >
-      <img src="assets/imgs/about.jpg">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc lorem, hendrerit non suscipit in, condimentum id erat. Duis lectus leo, venenatis a placerat non, finibus eget urna. Cras in arcu id magna vulputate eleifend at ultricies lacus. Nulla tristique sem et massa consectetur fringilla. </p>    
+
+      <form class="fullwidth">
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="Your name.."><br><br>
+        <label>Email:</label>
+        <input type="text" name="email" placeholder="Your email.."><br><br>
+        <label>Message:</label>
+        <textarea type="text" name="message" rows="5" placeholder="Feel free to contact me."></textarea>
+      </form> 
+
     </div>
   </section>
 

@@ -108,5 +108,19 @@ footer {
   line-height: 40px;
 }
 
+form input {
+  width: 100%;
+  line-height: 200%;
+}
+
+form input  { 
+  width: 100%;
+  line-height: 200%;
+}
+
+form textarea  { 
+  width: 100%;
+  line-height: 200%;
+}
 
 
