@@ -160,7 +160,7 @@ input[type=submit]:hover {
   background-color: #4a909b;
 }
 
-@media only screen and (max-width: 413px) {
+@media only screen and (max-width: 414px) {
 
     header {
       height: 190px;
